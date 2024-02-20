@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <style>
+        #search{
+           margin-left: 40%;
+            margin-right:40px; 
+           border-radius: 5px;
+        }
+        a{
+            margin-bottom: 30px;
+        }
+        #connecter{
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        #inscrire{
+            margin-top: 30px;
+            border-radius:10px;
+        }
+    </style>
+    <div class="page">
+        <div class="aba">
+            <ul id="liens">
+                <li><a href="index.html"> ACCUEILLE</a></li>
+                <li><a href="menu.html">A PROPOS</a></li>
+                <li><a href="info.html">INFOS</a></li>
+            </ul>
+            <input type="search"class="input-group-btn"  id="search" placeholder="Rechercher...">
+        </div>
+        <div class="kha">
+            <h1 class="jop">
+                <i> BIENVENUE CHEZ KHALIFA BUSSINESS</i>
+            </h1>
+                <a href="inscrire.html" id="connecter"><button id="connecter">se connecter</button></a>
+             <a href="contact.html" id="inscrire"><button id="inscrire">s`inscrire</button> </a>
+        </div>
+        <div class="diop">
+            <div class="poster">
+            </div>
+             
+        </div>
+</body>
+
+</html>
